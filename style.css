@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img img {
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 4px;
+}
+.topo {
+    width: 100%;
+    height: 45px;
+    background-color: #05121f;
+}
+.topo ul{
+    box-sizing: border-box;
+    margin-right: 50px;
+    align-items: center;
+    text-align: right;
+}
+.nave li {
+    margin-right: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1.2%;
+}
+.nave a{
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #224b72;
+}
+.nave a:hover{
+    color:#339cff ;
+}
+.container img {
+    height: 498px;
+    width: 100%;
+    margin-top: 12px;
+}
+.container h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.container p{
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: rgb(83, 83, 83);
+    line-height: 28px;
+}
+.nave2 li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    left: -64px;
+}
+.nave2 ul {
+    margin-top: 70px;
+
+}
+.nave2 img{
+    left: 10px;
+}
+.title {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+.title2 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(168, 168, 168);
+}
+.main {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-image: url(/imagens/bg_detalhe.png);
+}
+.main h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding-right: 20%;
+}
+.main p {
+    padding-right: 30%;
+    margin-top: 20px;
+    color: white;
+}
+.main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+.phone {
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    color: #003F63;
+    font-weight: bold;
+}
+.maps iframe{
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+}
+.rodape footer{
+    color: #003F63;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 13px;
+    margin-top: 10px;
+    background-color: #05121f;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px;
+
+}
